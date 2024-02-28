@@ -67,7 +67,7 @@ p {
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #DC143C;
   color: #fff;
 }
 
@@ -158,7 +158,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: #DC143C;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -214,7 +214,7 @@ p {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 @media (max-width: 992px) {
@@ -270,7 +270,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #b8a07e;
+  color: #DC143C;
 }
 
 .navbar .dropdown ul {
@@ -449,13 +449,13 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/home-bg.jpg") repeat scroll center center/cover;
+  background: url("../img/home-cha.jpg") repeat scroll center center/cover;
   height: 100vh;
   width: 100%;
 }
 
 #hero .hero-content {
-  height: 100vh;
+  height: 107vh;
   text-align: left;
   width: 100%;
   display: flex;
@@ -464,20 +464,20 @@ p {
 }
 
 .hero-content h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: #202020;
 }
 
 .hero-content p {
-  font-size: 13px;
+  font-size: 26px;
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  color: #202020;
   font-weight: 500;
 }
 
@@ -488,7 +488,7 @@ p {
 
 .hero-content .list-social li i {
   color: #fff;
-  font-size: 15px;
+  font-size: 30px;
 }
 
 /*--------------------------------------------------------------
@@ -564,7 +564,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #DC143C;
 }
 
 #about .div-img-bg .about-img img {
@@ -617,7 +617,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #DC143C;
   line-height: 44px;
 }
 
@@ -631,11 +631,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #DC143C;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #DC143C;
 }
 
 /*--------------------------------------------------------------
@@ -670,7 +670,7 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  color: #DC143C;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -726,7 +726,7 @@ p {
 }
 
 #portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
+  opacity: 0;
   bottom: 20px;
 }
 
@@ -862,7 +862,7 @@ p {
 
 .contact-details {
   list-style: none;
-  margin: 0;
+  margin: 0 0 30px;
   padding: 0;
 }
 
